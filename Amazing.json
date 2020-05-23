@@ -1,22 +1,11 @@
 {
   "name": "Amazing",
+  "type": "dark",
+  "category": "theme",
   "colors": {
-    "activityBar.background": "#333842",
-    "activityBar.foreground": "#D7DAE0",
-    "activityBarBadge.background": "#528BFF",
-    "activityBarBadge.foreground": "#D7DAE0",
-    "button.background": "#4D78CC",
-    "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#6087CF",
-    "diffEditor.insertedTextBackground": "#00809B33",
-    "dropdown.background": "#353b45",
-    "dropdown.border": "#181A1F",
-    "editorIndentGuide.activeBackground": "#626772",
-    "editor.background": "#282C34",
-    "editor.foreground": "#ABB2BF",
     "editor.background": "#000000",
-    "editor.foreground": "#ffffff",
-    "editor.selectionBackground": "#00ffff88",
+    "editor.foreground": "#00FF00",
+    "editor.selectionBackground": "#00ff0088",
     "editorPane.background": "#202020",
     "activityBar.background": "#1b1b1b",
     "activityBar.foreground": "#ee5cfd",
@@ -95,7 +84,7 @@
     "editorCursor.background": "#00ff60",
     "editorCursor.foreground": "#00ff60",
     "editor.wordHighlightBorder": "#00ff60",
-    "editor.wordHighlightBackground": "#00ffff88",
+    "editor.wordHighlightBackground": "#00ff0088",
     "editor.wordHighlightStrongBorder": "#00ff60",
     "editor.findMatchBackground": "#00ff60",
     "editor.findMatchBorder": "#ee5cfd",
@@ -106,10 +95,10 @@
     "merge.currentContentBackground": "#00ff6044",
     "merge.incomingHeaderBackground": "#ee5cfd",
     "merge.incomingContentBackground": "#ee5cfd44",
-    "gitDecoration.modifiedResourceForeground": "#00ffff",
+    "gitDecoration.modifiedResourceForeground": "#00ff00",
     "gitDecoration.deletedResourceForeground": "#ff4070",
     "gitDecoration.addedResourceForeground": "#00FF00",
-    "merge.border": "#00ffff",
+    "merge.border": "#00ff00",
     "widget.shadow": "#00FF00",
     "editorSuggestWidget.selectedBackground": "#ee5cfd",
     "breadcrumb.activeSelectionForeground": "#ee5cfd",
@@ -132,7 +121,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#800080"
+        "foreground": "#fff"
       }
     },
     {
@@ -153,7 +142,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type"],
       "settings": {
-        "foreground": "#00FF00"
+        "foreground": "#800080"
       }
     },
     {
@@ -164,9 +153,21 @@
       }
     },
     {
-      "name": "Operator, Misc",
+      "name": "Actions",
       "scope": [
         "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "keyword.other.unit",
+        "keyword.other"
+      ],
+      "settings": {
+        "foreground": "#800080"
+      }
+    },
+    {
+      "name": "Markers",
+      "scope": [
         "constant.other.color",
         "punctuation",
         "meta.tag",
@@ -175,12 +176,10 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
-        "keyword.other.template",
-        "keyword.other.substitution"
+        "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#00FF00"
+        "foreground": "#FFFF00"
       }
     },
     {
@@ -191,7 +190,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#00FF00"
+        "foreground": "#FFFF00"
       }
     },
     {
@@ -204,7 +203,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#800080"
       }
     },
     {
@@ -218,27 +217,31 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#ee5cfd"
+        "foreground": "#fff"
       }
     },
     {
-      "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+      "name": "Arguments, Parameters",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "name": "Number, Constant, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
         "constant.language",
         "support.constant",
         "constant.character",
-        "constant.escape",
-        "variable.parameter",
-        "keyword.other.unit",
-        "keyword.other"
+        "constant.escape"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#fff"
       }
     },
     {
-      "name": "String, Symbols, Inherited Class, Markup Heading",
+      "name": "Appreciated Pre-existing Tokens(Repect demanded!)",
       "scope": [
         "string",
         "constant.other.symbol",
@@ -246,14 +249,23 @@
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
-        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+        "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+        "source.python",
+        "variable.parameter.function.language.special.self.python",
+        "meta.function-call.arguments.python",
+        "variable.parameter.function-call.python",
+        "variable.language.special.self.python",
+        "variable.parameter.function.language.python",
+        "meta.item-access.arguments.python",
+        "support.class.latex",
+        "variable.parameter.function.latex"
       ],
       "settings": {
-        "foreground": "#ee5cfd"
+        "foreground": "#fff"
       }
     },
     {
-      "name": "Class, Support",
+      "name": "Created Token Names(Changes would break anything)",
       "scope": [
         "entity.name",
         "support.type",
@@ -262,10 +274,13 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "punctuation.separator.element.python",
+        "string.quoted.single.python",
+        "entity.name.function.python"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#00ff00"
       }
     },
     {
@@ -297,7 +312,7 @@
         "variable.other.class.js"
       ],
       "settings": {
-        "foreground": "#00FF00"
+        "foreground": "#800080"
       }
     },
     {
@@ -305,21 +320,21 @@
       "scope": ["variable.language"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffee57"
+        "foreground": "#ffff00"
       }
     },
     {
-      "name": "entity.name.method.js",
-      "scope": ["entity.name.method.js"],
+      "name": "entity.name.00ff00.js",
+      "scope": ["entity.name.00ff00.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#82AAFF"
       }
     },
     {
-      "name": "meta.method.js",
+      "name": "meta.00ff00.js",
       "scope": [
-        "meta.class-method.js entity.name.function.js",
+        "meta.class-00ff00.js entity.name.function.js",
         "variable.function.constructor"
       ],
       "settings": {
@@ -341,14 +356,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#00ffff"
+        "foreground": "#00ff00"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#00ff00"
       }
     },
     {
@@ -436,7 +451,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#00ff00"
       }
     },
     {
