@@ -5,6 +5,10 @@ Amazing Style for VS code
 ![Screen Shot 1](ss_1.png)
 ![Screen Shot 0](ss_0.png)
 
+## Patreon
+
+Support more development @ <https://www.patreon.com/zzj0402>
+
 ## Install
 
 <https://marketplace.visualstudio.com/items?itemName=zzj0402.amazing>
