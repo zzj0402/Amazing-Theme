@@ -2,9 +2,9 @@
 
 Amazing Style for VS code
 
-## Prerequisite
+## Install
 
-### Fira Code
+<https://marketplace.visualstudio.com/items?itemName=zzj0402.amazing>
 
 ## Philosophy
 
