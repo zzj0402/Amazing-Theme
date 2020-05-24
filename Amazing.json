@@ -136,11 +136,29 @@
       }
     },
     {
-      "name": "Comment",
+      "name": "Deep Descirption (Humbling thoughts)",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "fontStyle": "italic",
         "foreground": "#0000FF"
+      }
+    },
+    {
+      "name": "Created Token Names(Free to change)",
+      "scope": [
+        "entity.name",
+        "support.type",
+        "support.class",
+        "support.orther.namespace.use.php",
+        "meta.use.php",
+        "support.other.namespace.php",
+        "markup.changed.git_gutter",
+        "support.type.sys-types",
+        "punctuation.separator.element.python",
+        "entity.name.function.python",
+        "meta.paragraph.markdown"
+      ],
+      "settings": {
+        "foreground": "#00ff00"
       }
     },
     {
@@ -264,24 +282,6 @@
       ],
       "settings": {
         "foreground": "#fff"
-      }
-    },
-    {
-      "name": "Created Token Names(Changes would break anything)",
-      "scope": [
-        "entity.name",
-        "support.type",
-        "support.class",
-        "support.orther.namespace.use.php",
-        "meta.use.php",
-        "support.other.namespace.php",
-        "markup.changed.git_gutter",
-        "support.type.sys-types",
-        "punctuation.separator.element.python",
-        "entity.name.function.python"
-      ],
-      "settings": {
-        "foreground": "#00ff00"
       }
     },
     {
