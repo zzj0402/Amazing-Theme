@@ -2,7 +2,7 @@
   "name": "amazing",
   "displayName": "Amazing",
   "description": "Amazing Color Scheme for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -19,5 +19,6 @@
     ]
   },
   "publisher": "zzj0402",
-  "repository": "https://github.com/zzj0402/Amazing-Theme"
+  "repository": "https://github.com/zzj0402/Amazing-Theme",
+  "icon": "icon.png"
 }
