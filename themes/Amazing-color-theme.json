@@ -111,7 +111,17 @@
     "editorIndentGuide.background": "#ff0",
     "terminal.border": "#ff0000",
     "terminal.foreground": "#0f0",
-    "problemsErrorIcon.foreground": "#ff0000"
+    "problemsErrorIcon.foreground": "#ff0000",
+    "problemsWarningIcon.foreground": "#ff0",
+    "problemsInfoIcon.foreground": "#00f",
+    "editorError.foreground": "#ff0000",
+    "editorError.border": "#ff0000",
+    "editorWarning.border": "#ff0",
+    "editorWarning.foreground": "#ff0",
+    "editorInfo.foreground": "#00f",
+    "editorInfo.border": "#00f",
+    "editorHint.foreground": "#0f0",
+    "editorHint.border": "#0f0"
   },
   "tokenColors": [
     {
