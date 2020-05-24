@@ -136,7 +136,7 @@
       }
     },
     {
-      "name": "Deep Descirption (Humbling thoughts)",
+      "name": "Deep Description (Humbling thoughts)",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#0000FF"
