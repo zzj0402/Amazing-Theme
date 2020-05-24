@@ -1,0 +1,21 @@
+{
+    "name": "amazing",
+    "displayName": "Amazing",
+    "description": "Amazing Color Scheme for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amazing",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Amazing-color-theme.json"
+            }
+        ]
+    }
+}
