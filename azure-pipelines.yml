@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: vsce package
+  displayName: 'Package'
+
+- script: vsce publish -p $(PAT)
+  displayName: 'Publish'
