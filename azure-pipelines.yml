@@ -5,5 +5,5 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - script: npm install && npm deploy -p $(PAT)
+  - script: npm install && npm build && npm deploy -p $(PAT)
     displayName: "Publish"

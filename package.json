@@ -25,6 +25,7 @@
     "vsce": "^1.75.0"
   },
   "scripts": {
-    "deploy": "vsce package && vsce publish"
+    "build":"vsce package",
+    "deploy": "vsce publish"
   }
 }
