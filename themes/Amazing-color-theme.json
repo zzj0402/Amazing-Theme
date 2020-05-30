@@ -160,7 +160,13 @@
         "support.type.python",
         "constant.other.caps.python",
         "meta.member.access.python",
-        "support.function.magic.python"
+        "support.function.magic.python",
+        "storage.modifier.dart",
+        "constant.numeric.dart",
+        "support.class.dart",
+        "support.function.general.tex",
+        "support.function.section.latex",
+        "support.function.be.latex"
       ],
       "settings": {
         "foreground": "#fff"
@@ -198,7 +204,8 @@
         "string.quoted.double.json",
         "variable.parameter.function.language.python",
         "string.quoted.docstring.multi.python",
-        "string.quoted.single.python"
+        "string.quoted.single.python",
+        "string.interpolated.single.dart"
       ],
       "settings": {
         "foreground": "#00ff00"
