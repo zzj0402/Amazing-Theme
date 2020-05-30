@@ -23,5 +23,8 @@
   "icon": "ss_1.png",
   "devDependencies": {
     "vsce": "^1.75.0"
+  },
+  "scripts": {
+    "deploy": "vsce package && vsce publish"
   }
 }
