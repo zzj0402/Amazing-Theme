@@ -1,12 +1,13 @@
 trigger:
-- master
+  - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: "ubuntu-latest"
 
 steps:
-- script: vsce package
-  displayName: 'Package'
-
-- script: vsce publish -p $(PAT)
-  displayName: 'Publish'
+  - script: npm i
+    displayName: "Install package"
+  - script: vsce package
+    displayName: "Package"
+  - script: vsce publish -p $(PAT)
+    displayName: "Publish"
