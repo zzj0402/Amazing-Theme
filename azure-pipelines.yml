@@ -5,9 +5,5 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - script: npm i
-    displayName: "Install package"
-  - script: vsce package
-    displayName: "Package"
-  - script: vsce publish -p $(PAT)
+  - script: npm i && vsce package && vsce publish -p $(PAT)
     displayName: "Publish"
