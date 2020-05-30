@@ -5,5 +5,5 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - script: yarn build && yarn deploy -p $(PAT)
+  - script: yarn package && yarn deploy -p $(PAT)
     displayName: "Publish"
