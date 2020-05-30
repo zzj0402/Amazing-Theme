@@ -5,5 +5,5 @@ pool:
   vmImage: "ubuntu-latest"
 
 steps:
-  - script: npm install vsce && vsce package && vsce publish -p $(PAT)
+  - script: yarn build && yarn deploy -p $(PAT)
     displayName: "Publish"
