@@ -166,7 +166,9 @@
         "support.class.dart",
         "support.function.general.tex",
         "support.function.section.latex",
-        "support.function.be.latex"
+        "support.function.be.latex",
+        "keyword.other.entry-type.bibtex",
+        "support.function.key.bibtex"
       ],
       "settings": {
         "foreground": "#fff"
@@ -205,7 +207,8 @@
         "variable.parameter.function.language.python",
         "string.quoted.docstring.multi.python",
         "string.quoted.single.python",
-        "string.interpolated.single.dart"
+        "string.interpolated.single.dart",
+        "entity.name.type.entry-key.bibtex"
       ],
       "settings": {
         "foreground": "#00ff00"
